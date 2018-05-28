@@ -1,0 +1,1 @@
+gcloud beta functions deploy TRISV1 --stage-bucket staging.tris-v1.appspot.com --trigger-http
