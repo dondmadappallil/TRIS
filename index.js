@@ -20,7 +20,7 @@ exports.TRISV1 = (req, res) => {
   else if ( trigger == 'OFF')
    state=0;
 
- request('http://188.166.206.43/108a9520b5f94806b4e5493ad4de816e/upda$
+ request('http://188.166.206.43/108a9520b5f94806b4e5493ad4de816e/update/D2?value=0', function (error, response, body) {
   console.log('Status:', response.statusCode);
   response.json({ fulfillmentText: 'Completed Switching'});
   });
