@@ -4,7 +4,7 @@ var request = require('request');
 exports.TRISV1 = (req, res) => {
 
   let appliance = req.body.queryResult.parameters['Appliance'];
-  let trigger = req.body.queryResult.parameters[Trigger'];
+  let trigger = req.body.queryResult.parameters[Trigger'] ;
 
   var pin= '';
   if ( appliance == 'Light')
